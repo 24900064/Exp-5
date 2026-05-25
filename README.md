@@ -4,22 +4,52 @@
 
 # AIM:
 To study the problem statement ,SRS,Document and draw all the UML diagrams of "STUDENT ENROLLMENT SYSTEM".
+
 # SRS (Procedure):
-### 1.In use case diagram it consists of Actors, use cases, Association.
-### 2.Activity diagram it consists action, Initial and final, Control flow.
-### 3.Identify actors and usecases from the system.
-### 4.Define the classes and relationships in the system.
-### 5.Illustrate the flow of actions for a specific task.
-### 6.Model interactions between objects for a process.
 
-# DIAGRAMS:
+# 1. Class Diagram
+Identify classes with attributes and methods.
 
-### 1.Use Case Diagram
-### 2.Class Diagram
-### 3. Package Diagram
-### 4.Sequence Diagram
-### 5.Activity Diagram
-### 6.Communication Diagram
+Define relationships (association, generalization, aggregation).
+
+Use class boxes and connectors.
+
+# 2. Use Case Diagram
+Identify actors and use cases.
+
+Draw actors outside, use cases inside the system boundary.
+
+Connect actors to use cases; use <<include>>, <<extend>> if needed.
+
+# 3. Activity Diagram
+Identify activities, decisions, start and end nodes.
+
+Use flow arrows, decision diamonds, and activity boxes.
+
+Represent process flow clearly.
+
+# 4. Package Diagram
+Group related classes into packages.
+
+Draw packages using folder-like symbols.
+
+Show dependencies between packages with dashed arrows.
+
+# 5. Sequence Diagram
+Identify objects and message sequence.
+
+Draw lifelines vertically.
+
+Use horizontal arrows for messages (in order from top to bottom).
+
+Show activation bars if needed.
+
+# 6. Communication Diagram
+Identify objects and interactions.
+
+Represent objects as boxes connected by lines.
+
+Label messages with sequence numbers and direction arrows.
 
 ## USE CASE DIAGRAM:
 ![image](https://github.com/user-attachments/assets/e4ba07db-ea81-456e-b874-35658e34936f)
